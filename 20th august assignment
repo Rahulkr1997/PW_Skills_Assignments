@@ -8,7 +8,16 @@ reversed_string = reverse_string(input_string)
 print("Reversed string:", reversed_string)
 
 2. Check if a string is a palindrome.
-sol no.2 - 
+sol no.2 - def isPalindrome(s):
+	return s == s[::-1]
+# Driver code
+s = "malayalam"
+ans = isPalindrome(s)
+if ans:
+	print("Yes")
+else:
+	print("No")
+
 3. Convert a string to uppercase.
 4. Convert a string to lowercase.
 5. Count the number of vowels in a string.
